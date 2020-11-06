@@ -1,0 +1,53 @@
+body{
+    background-color:lightslategray;
+}
+.main{
+    margin-top: 0px;
+    box-sizing: border-box;
+    border:transparent;
+}
+.first{
+    width: 80%;
+    height: 150px;
+   text-align: center;
+}
+.name{
+    font-size: 50px;
+   text-transform: uppercase;
+   color:oldlace;
+   text-decoration: underline;
+}
+.p1{
+    color: oldlace;
+    font-size: 30px;
+    text-transform: capitalize;
+    float: right;
+    margin-top: -20px;
+}
+.container{
+    width: 100%;
+    height: 400px;
+}
+.container .left{
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: lightyellow;
+}
+.container .left img{
+    box-sizing: border-box;
+    border-radius: 490px;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    margin-top: -20px;
+}
+.container .right ul{
+    float: left;
+    color: lightyellow;
+    padding: 20px;
+}
+.container .right ul li {
+    padding: 10px;
+}
