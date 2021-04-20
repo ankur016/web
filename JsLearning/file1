@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document showing </title>
+</head>
+<body>
+    <!--add new element in the list bt taking input from the user -->
+ <ul id="myl">
+   <li>apple</li>
+   <li>banana</li>
+   <li>mango</li>
+ </ul>
+ <button onclick="my()">click now</button>
 
+<script>
+    function my(){
+        var ab=prompt();
+       var x=document.createElement("li");
+       var y=document.createTextNode(ab);
+       x.appendChild(y);
+       document.getElementById("myl").appendChild(x);
+ 
+    }
+</script>
+
+
+
+ <!-- comment 
+
+
+    <ul id="myList">
+        <li>potato</li>
+        <li>tomato</li>
+    </ul>
+    <button onclick="myFunction()">Try it</button>
+   <button onclick="myf()">
+       now
+   </button>
+   <p id="demo"></p>
+   <script>
+      function myFunction(){
+        var x=document.createElement("li");
+       var y=document.createTextNode("text");
+       x.appendChild(y);
+       document.getElementById("myList").appendChild(x);
+      }
+     function myf(){
+         var a=prompt();
+         document.getElementById("demo").innerHTML=a;
+     }
+   </script>
+    -->
+</body>
+</html>
