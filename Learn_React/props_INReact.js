@@ -9,3 +9,12 @@ export default function greet(props) {
         </div>
     )
 }
+/*
+passing in main function 
+ <Greet name="anchal"/>
+   <Greet name="ankur"/>
+   <Greet name="anu"/>
+*/
+ <Greet name="anchal"/>
+   <Greet name="ankur"/>
+   <Greet name="anu"/>
